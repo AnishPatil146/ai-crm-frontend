@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Sidebar from "../components/Sidebar"
 import Navbar from "../components/Navbar"
 import LeadModal from "../components/LeadsModal"
+
 import { getLeads } from "../services/leadsService"
 import socket from "../services/socket"
 

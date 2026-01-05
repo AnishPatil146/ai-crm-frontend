@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import API from "../services/api"
 import socket from "../services/socket"
 import { Pie, Line } from "react-chartjs-2"
+import Sidebar from "../components/Sidebar"
+import Navbar from "../components/Navbar"
 
 export default function EmployeeDashboard() {
     const [tasks, setTasks] = useState([])
